@@ -1,0 +1,14 @@
+.conversor {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.conversor input {
+    text-align: right;
+    width: 30rem;
+    margin: 5px;
+}
