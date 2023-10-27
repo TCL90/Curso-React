@@ -1,0 +1,10 @@
+.fondo {
+  background-color: green;
+  color: white;
+  font-size: 2em;
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+}
