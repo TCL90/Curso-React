@@ -1,0 +1,44 @@
+.fondo {
+    background-color:  rgb(4, 4, 82);
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuerpo input {
+    width: 50%;
+    height: 50%;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.def {
+    text-decoration: underline;
+}
+
+.test {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.resultado {
+    border: 4px solid red;
+}
+
+.im {
+    width: 15%
+}
