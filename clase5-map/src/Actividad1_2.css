@@ -1,0 +1,26 @@
+.nombreRey {
+    color:red;
+}
+
+.cardRey {
+    border: 1px solid black;
+    border-radius: 1rem;
+    align-items: center;
+    max-width: 17.5rem;
+    margin: 0.4rem 0.6rem;
+}
+
+.cardRey img{
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.cardRey p{
+    margin: 1rem;
+}
+
+.reyes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    column-gap: 10px;
+}

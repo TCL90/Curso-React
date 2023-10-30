@@ -1,0 +1,12 @@
+.reyPair {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    max-height: 20px;
+    align-items: center;
+}
+
+.reyPair p{
+    margin: 0.5rem;
+
+}

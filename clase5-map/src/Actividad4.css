@@ -1,0 +1,16 @@
+.reyContador {
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+.rey {
+    margin: 0;
+    color: gray;
+}
+
+.contador {
+    margin: 0;
+    font-size: 3rem;
+    color: black;
+    user-select: none;
+}
