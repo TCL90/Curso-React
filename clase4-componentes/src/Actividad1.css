@@ -1,0 +1,27 @@
+.cardRey {
+    display: flex;
+    width: 48%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1%;
+  } 
+
+.cardRey h1{
+    text-align: center;
+  } 
+
+.precio {
+    font-size: 1.5rem;
+    margin:1rem;
+  } 
+
+.precio p{
+    margin:0;
+  } 
+
+.cardRey img{
+    align-self: center;
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+  }
