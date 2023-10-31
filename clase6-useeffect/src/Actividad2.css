@@ -1,0 +1,46 @@
+.cartas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.carta {
+    background-color: beige;
+    padding: 2rem;
+    border: 1px solid black;
+    margin-bottom: 0.5rem;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin-top: 0.2rem;
+}
+
+p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carta img{
+    max-width: 100%;
+    align-self: center;
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+
+.bold {
+    font-weight: bold;
+}
