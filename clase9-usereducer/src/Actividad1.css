@@ -1,0 +1,38 @@
+.barra {
+    display: flex;
+    margin: 10px;
+}
+
+.barra span {
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+.barra input {
+    width: 10rem;
+    font-size: 30px;
+}
+
+.barra button {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.productos {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.producto {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.producto button {
+    width: 50px;
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 0px;
+}
