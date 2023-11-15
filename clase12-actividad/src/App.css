@@ -1,0 +1,77 @@
+.palabra {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.letra {
+  font-size: 2.5em;
+  margin: 4px;
+  border-bottom: 3px solid black;
+  width: 40px;
+  height: 50px;
+  text-align: center;
+}
+
+.botones {
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+button:enabled:active {
+  background-color: cornflowerblue;
+}
+
+button.correct {
+  background-color: green;
+  border: 3px solid black;
+}
+
+button.fail {
+  background-color: red;
+  border: 3px solid black;
+}
+
+.letraBoton {
+  font-size: 60px;
+  margin: 5px;
+  width: 70px;
+  border: 3px dotted black;
+  background-color: cadetblue;
+  color: white;
+  cursor: pointer;
+  border-radius: 2px;
+  align-items: center;
+
+}
+
+.imagen {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.imagen img {
+  height: 350px;
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.volver {
+  margin-top: 10px;
+  width: 10%;
+  background-color: cadetblue;
+  border: none;
+  color: white;
+  padding: 10px 7px; 
+  border-radius: 3px;
+  cursor: pointer;
+}
